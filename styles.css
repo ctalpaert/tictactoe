@@ -9,10 +9,8 @@ td {
     border: 1vh black dotted;
     width: 30vh;
     height: 30vh;
-    background-image: url('./sprites.png');
+    background: transparent url('./sprites.png') 31vh 0 no-repeat;
     background-size: 200% 100%;
-    background-position: 31vh 0;
-    background-repeat: no-repeat;
 }
 tr:first-child td { border-top: none }
 tr:last-child td { border-bottom: none }
